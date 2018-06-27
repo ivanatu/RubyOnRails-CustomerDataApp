@@ -9,10 +9,14 @@ gem 'rails', '~> 5.2.0'
 gem 'sqlite3', git: "https://github.com/larskanis/sqlite3-ruby", branch: "add-gemspec"
 # use haml where necessary
 gem 'haml'
+# use jquery
+gem 'jquery-rails'
 # use bootstrap-sass where necessary
-gem 'bootstrap-sass', '~> 2.3.2.0'
+gem 'bootstrap-sass', '~> 3.3.6'
 # use forms ie simple_form where necessary
 gem 'simple_form'
+# use bootstrap confirm model
+gem 'data-confirm-modal'
 # Use Puma as the app server
 gem 'puma', '~> 3.11'
 # Use SCSS for stylesheets
